@@ -1,0 +1,62 @@
+
+\documentclass[letterpaper, 10 pt]{ieeeconf}  
+% Comment this line out if you need a4paper
+%\documentclass[a4paper, 10pt, conference]{ieeeconf}      
+% Use this line for a4 paper
+
+\IEEEoverridecommandlockouts                              
+% This command is only
+% needed if you want to
+% use the \thanks command
+
+\overrideIEEEmargins
+
+\usepackage{graphicx} 
+\usepackage[utf8x]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{fancyhdr}
+\usepackage{epic}
+\usepackage{eepic}
+\usepackage{amsmath,amsfonts}
+\usepackage{threeparttable}
+\usepackage{amscd}
+\usepackage{here}
+%\usepackage{subfigure}
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{color}
+\usepackage{tikz}
+\usepackage{hyperref}
+\usepackage{rotating}
+
+
+\title{\LARGE \bf
+A Stochastic High-Resolution Dynamic Model for the Assessment of Realtime Forest Fire Susceptibility.}
+
+\author{E. Zapata$^{1}$, N Velasquez$^{2}$, C.D. Hoyos, S. Ospina}% <-this % stops a space
+
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{abstract.tex}
+\input{Introduccion.tex}
+\input{Data.tex}
+\input{Metodo.tex}
+\input{Resultados.tex}
+%\input{conclusiones.tex}
+
+\addcontentsline{toc}{chapter}{\numberline{}Bibliografía}
+
+\bibliographystyle{apalike}
+\bibliography{BibliMSc}
+
+
+
+\end{document}
